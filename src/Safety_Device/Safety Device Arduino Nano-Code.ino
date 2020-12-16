@@ -51,7 +51,7 @@ void sms()
 {
     Serial.print("AT+CMGF=1\r");
     delay(100);
-    Serial.println("AT+CMGS =\"+918105805044\"");
+    Serial.println("AT+CMGS =\"+91XXXXXXXXXX\"");
     delay(100);
     Serial.println("HELP! Location:");
     Serial.println(String("Latitude: ")+String(latitude));
